@@ -14,7 +14,7 @@ if (!$link) {
 }
 
 
-$selected = mysql_select_db("db", $link) 
+$selected = mysql_select_db("db", $link)
   or die('No such db');
 echo 'Connection: OK' . '<br><br>';
 
@@ -25,7 +25,7 @@ $result = mysql_query($sql);
 if (!$result) die("Login failed. No data will be shown");
 $row = mysql_fetch_array($result);
 
-if ($row) 
+if ($row)
     echo "Data: ".$row{'data'} . "<br>";
 else
     echo "Login failed. No data will be shown";
@@ -35,27 +35,7 @@ mysql_close($link);
 
 /*
 
-CREATE TABLE users (
-   id INTEGER AUTO_INCREMENT,
-   login varchar(255),
-   pass varchar(255),
-   data varchar(255),
-   PRIMARY KEY(id)
-);
 
-INSERT INTO users VALUES(NULL,'login','pass','goto A');
-
-
-Howt0 break:
-
-    1) acces to data: 
-        login: login' OR 1=1; #
-        password: any
-    2) acces to users table:
-        login: ' union select login from users order by 1 DESC; #
-        or
-        ' union select pass from users order by 1 DESC; #
-        password: any
 */
 
 ?>
