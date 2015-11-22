@@ -29,21 +29,23 @@ int main(int argc, char **argv) {
 
   mysql_options(con, MYSQL_SET_CHARSET_NAME, "utf8");
 
-  int size = 4;
-  int login[4] = { 115, 112, 112, 117 };
-  int pass[4] = { 115, 112, 112, 117 };
+  int sizel = 4;
+  int login[4] = { 118, 116, 102, 115 };
+  int sizep = 9;
+  int pass[9] = { 114, 120, 102, 115, 117, 122, 50, 51, 52 };
 
-  char* login_dec = decode(login, size);
-  char* pass_dec = decode(login, size);
+  char* login_dec = decode(login, sizel);
+  char* pass_dec = decode(pass, sizep);
+  //printf("%s %s\n", login_dec, pass_dec);
 
-  if (mysql_real_connect(con, "localhost", login_dec, pass_dec,
-          "repostme", 0, NULL, 0) == NULL) {
+  if (mysql_real_connect(con, "46.37.146.33", login_dec, pass_dec,
+          "test", 7306, NULL, 0) == NULL) {
       fprintf(stderr, "%s\n", mysql_error(con));
       mysql_close(con);
       exit(1);
   }
 
-  if (mysql_query(con, "SELECT * FROM offers")) {
+  if (mysql_query(con, "SELECT * FROM users")) {
       finish_with_error(con);
   }
 

@@ -4,9 +4,9 @@ Very stupid code only for data protection practise
 
 # DB:
 
-DROP DATABASE IF EXISTS db;
+DROP DATABASE IF EXISTS test;
 
-CREATE DATABASE db;
+CREATE DATABASE test;
 
 CREATE TABLE users (
    id INTEGER AUTO_INCREMENT,
@@ -14,9 +14,12 @@ CREATE TABLE users (
    pass varchar(255),
    data varchar(255),
    PRIMARY KEY(id)
-);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO users VALUES(NULL,'login','pass','goto A');
+
+to connect:
+mysql -u user -h 46.37.146.33 -P 7306 -pqwerty123
 
 
 # How to break:

@@ -8,13 +8,13 @@ $pass = $_POST['pass'];
 
 echo '<br>Hello, ' . $login . '<br><br>';
 
-$link = mysql_connect('localhost', 'root', 'root');
+$link = mysql_connect('46.37.146.33:7306', 'user', 'qwerty123');
 if (!$link) {
     die('Cannot connect: ' . mysql_error());
 }
 
 
-$selected = mysql_select_db("db", $link)
+$selected = mysql_select_db("test", $link)
   or die('No such db');
 echo 'Connection: OK' . '<br><br>';
 
