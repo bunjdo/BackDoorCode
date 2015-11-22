@@ -1,0 +1,21 @@
+Simple compilation with symbols:
+  make release    - compile
+  nm ./main    -  all points (for breakpoints)
+  gdb main  - debugger, put breakpoint on main and then reach the line with mysql connection to grab the login & pass
+
+Compilation with stripping debugging symbols:
+  make stripped    - compile the same way
+  strip -s a.out    - strip all debuging symbols
+  nm ./main    -  no points :(
+  - now gdb fails to locate main or whatewer point
+  - debugging is still possible, but it is more complicated
+  (gdb) info file  - the memory address of the entry point
+  x/200i $pc   - list 200 operators
+  b *0xCode   - break to code
+
+  way to solve:
+    objdump -p ./file  - to grab info about required libraries
+    https://dev.mysql.com/doc/refman/5.7/en/mysql-real-connect.html   - docs about connection to db function
+    then look for mysql_real_connect
+    goto that place, and check registers for login and pass we needed
+    usage: x/5c 0x6038d0 - to print 5 characters
