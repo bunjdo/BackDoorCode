@@ -19,3 +19,6 @@ Compilation with stripping debugging symbols:
     then look for mysql_real_connect
     goto that place, and check registers for login and pass we needed
     usage: x/5c 0x6038d0 - to print 5 characters
+
+Well, there are also fiew more ways to solwe this task without using gdb, such as sniffing mysql connection to the server and changing query string stored in source code as it is, in raw string constants.
+Maybe we need to protect code from changing query string in future, as we did that for login and password.
