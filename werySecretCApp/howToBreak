@@ -28,3 +28,6 @@ Compilation with stripping everything:
     b *0xCode   - break to code
 
     same solution here but now we hawe no func names so all func calls should be checked
+
+Well, there are also fiew more ways to solwe this task without using gdb, such as sniffing mysql connection to the server and changing query string stored in source code as it is, in raw string constants.
+Maybe we need to protect code from changing query string in future, as we did that for login and password.
