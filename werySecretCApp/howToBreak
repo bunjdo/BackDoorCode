@@ -1,3 +1,5 @@
+Goal - to get login and password for mysql server
+
 Simple compilation with symbols:
   make simple    - compile
   nm ./simple    -  all points (for breakpoints)
