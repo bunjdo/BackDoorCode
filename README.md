@@ -6,7 +6,7 @@ This is repository for developers only, if you are interested in clear competiti
 
 Please be welocome to contribute
 
-# DB:
+# Use DB:
 
 DROP DATABASE IF EXISTS test;
 
