@@ -1,0 +1,6 @@
+Task for Windows users
+
+Using OlyDBG or something find line jne addr to print "Kye is incorrect!" and exit 0 and change jne addr to jne 0
+PROFIT!!!
+
+But, the key must be more or equal 13 characters long. U can find out thisin the begining of the function.
