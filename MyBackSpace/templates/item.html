@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+
+                <h2>
+                    <a href="#">{{ data['title'] }}</a>
+                </h2>
+                <p><span class="glyphicon glyphicon-time"></span> Опубликовано где-то {{ data['date'] }}</p>
+                <hr>
+                {{ data['content'] }}<br><br><br>
+                <hr>
+{% endblock %}

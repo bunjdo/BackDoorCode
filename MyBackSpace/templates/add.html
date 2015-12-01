@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<form method='POST' action='/add_post'>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Тайтл</label>
+    <input type="text" name="name" class="form-control" id="exampleInputEmail1">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Шорт дескрипшн</label>
+    <textarea type="text" name="lid" class="form-control" id="exampleInputPassword1"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">Фулл Дескрипшн</label>
+    <textarea type="text" class="form-control" name="data" id="exampleInputFile"></textarea>
+  </div>
+  <button type="submit" class="btn btn-default">Субмит</button>
+</form>
+{% endblock %}

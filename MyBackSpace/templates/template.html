@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+                <h1 class="page-header">
+                    <small>Записи</small><a href="/add" class="btn btn-primary pull-right">Добавить</a>
+                </h1>
+
+                {% for item in data.records %}
+                <h2>
+                    <a href="/view?p={{ item['id'] }}">{{ item['title'] }}</a>
+                </h2>
+                <p><span class="glyphicon glyphicon-time"></span> Опубликовано где-то {{ item['date'] }}</p>
+                <hr>
+                {{ item['lid'] }}<br><br><br>
+                <a class="btn btn-primary" href="/view?p={{ item['id'] }}">Рид моар<span class="glyphicon glyphicon-chevron-right"></span></a>
+
+                <hr>
+                {% endfor %}
+{% endblock %}

