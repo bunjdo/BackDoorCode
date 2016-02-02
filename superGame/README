@@ -2,9 +2,9 @@ Task for Windows users specially
 Goals:
     1) Play the game
     2) Create keygen
-    3) Break the game in order to run it without asking key or excepting any of it
+    3) Break the game in order to run it without asking key or accepting any of it
 
 Using OlyDBG or something find line jne addr to print "Key is incorrect!" and exit 0 and change jne addr to jne 0
 PROFIT!!!
 
-But, the key must be more or equal 13 characters long. U can find out thisin the begining of the function.
+But, the key must be more or equal 13 characters long. You can find out this in the beginning of the function.
