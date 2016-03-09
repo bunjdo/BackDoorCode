@@ -3,7 +3,7 @@ Goal: to get the hex flag from .jar binary programm file.
 This is the simple console java app that asks the key but don't want to check it. So we should decompile it to grab the flag.
 The jar file is build/obfuscated/BalloonWindCore_JavaSE.jar (don't ask why, I just didn't changed obfuscation settings). This file has been obfuscated by ProGuard 5.3.
 
-We can try to deobfuscate our jar file or simply decompile it using JD-GUI or something else. We can see the folowing structure:
+We can try to deobfuscate our jar file or simply decompile it using decompiler JD-GUI or something else (Upd: Enigma deobfuscator works better with this jar). We can see the folowing structure:
 
 package com.bunjlabs;
 
