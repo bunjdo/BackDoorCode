@@ -10,7 +10,7 @@ Compilation with stripping debugging symbols:
   nm ./release    -  but we still have points
 
   way to solve:
-    no more libraries!!!  objdump -p ./file  - to grab info about required libraries
+    objdump -p ./file  - to grab info about required libraries
     just gdb code and find info about library from func names
     https://dev.mysql.com/doc/refman/5.7/en/mysql-real-connect.html   - docs about connection to db function
     then look for mysql_real_connect
@@ -31,3 +31,22 @@ Compilation with stripping everything:
 
 Well, there are also fiew more ways to solwe this task without using gdb, such as sniffing mysql connection to the server and changing query string stored in source code as it is, in raw string constants.
 Maybe we need to protect code from changing query string in future, as we did that for login and password.
+
+# Use DB:
+
+DROP DATABASE IF EXISTS test;
+
+CREATE DATABASE test;
+
+CREATE TABLE users (
+   id INTEGER AUTO_INCREMENT,
+   login varchar(255),
+   pass varchar(255),
+   data varchar(255),
+   PRIMARY KEY(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO users VALUES(NULL,'login','pass','goto A');
+
+to connect:
+mysql -u user -h 46.37.146.33 -P 7306 -pqwerty123

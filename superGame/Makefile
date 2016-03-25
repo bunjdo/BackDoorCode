@@ -1,2 +1,2 @@
 all:
-	g++ -O3 -static main.cpp -o superGame
+	gcc --std=c99 -O3 -static main.c -o superGame
