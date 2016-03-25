@@ -1,10 +1,5 @@
 Goal - to get login and password for mysql server
 
-Simple compilation with symbols:
-  make simple    - compile
-  nm ./simple    -  all points (for breakpoints)
-  gdb main  - debugger, put breakpoint on main and then reach the line with mysql connection to grab the login & pass
-
 Compilation with stripping debugging symbols:
   make release    - compile
   nm ./release    -  but we still have points
@@ -16,21 +11,6 @@ Compilation with stripping debugging symbols:
     then look for mysql_real_connect
     goto that place, and check registers for login and pass we needed
     usage: x/5c 0x6038d0 - to print 5 characters
-
-Compilation with stripping everything:
-    make stripped
-    best way, no simple solution
-    nm ./stripped    -  but we still have points
-    - now gdb fails to locate main or whatever point
-    - debugging is still possible, but it is more complicated
-    (gdb) info file  - the memory address of the entry point
-    x/200i $pc   - list 200 operators
-    b *0xCode   - break to code
-
-    same solution here but now we hawe no func names so all func calls should be checked
-
-Well, there are also fiew more ways to solwe this task without using gdb, such as sniffing mysql connection to the server and changing query string stored in source code as it is, in raw string constants.
-Maybe we need to protect code from changing query string in future, as we did that for login and password.
 
 # Use DB:
 
@@ -47,6 +27,3 @@ CREATE TABLE users (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO users VALUES(NULL,'login','pass','goto A');
-
-to connect:
-mysql -u user -h 46.37.146.33 -P 7306 -pqwerty123
