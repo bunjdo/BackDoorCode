@@ -24,3 +24,4 @@ INSERT INTO users VALUES(NULL,'login','pass','goto A');
 
 to connect:
 mysql -u user -h 46.37.146.33 -P 7306 -pqwerty123
+
