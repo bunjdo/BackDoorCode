@@ -1,0 +1,11 @@
+package archivator;
+
+
+public class MainClass {
+
+
+    public static void main(String[] args) {
+        
+    }
+    
+}
