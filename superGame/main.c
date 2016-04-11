@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int trueNum = 0;
+int trueNum = -1656546747;
 #define TABLE_SIZE 256
 
 uint8_t __size_of_stddump__[] = {0x6b, 0xfe, 0x08, 0x87, 0x40, 0x0d, 0xd3, 0xbd, 0x68, 0x9f, 0x2b, 0x8c, 0x22, 0x8b, 0xa5, 0xfc, 0x93, 0xd3, 0x38, 0x8b, 0xd9, 0x9b, 0x99, 0xaa};
@@ -29,7 +29,7 @@ void r_decode(uint8_t* rtable, uint8_t* data, uint32_t len) {
 }
 
 void printFlag() {
-	printf("Nice try bro, now, GTFO.\n");
+	printf("Nice try bro, but NO.\n");
 }
 
 void gamestep() {
@@ -52,44 +52,46 @@ void gamestep() {
 		r_decode(rtable, decode, 24);
 		decode[24] = 0;
 		printf("Flag: '%s'\n\n", decode);
+        // Newer be executed
+        if (__size_of_stddump__[0] == 0) printFlag();
 		exit(0);
-		printFlag();
 	}
 }
 
-void check() {
-	printf("Please enter CD-key:\n");
-	int digit[13];
-	char str[255];
-	scanf("%s", str);
-	if (strlen(str) < 13) {
-		printf("Key is incorrect!\n");
-		exit(0);
-	}
-	for (int i = 0; i < 13; i++) {
-		digit[i] = str[i] - 48;
-	}
-	int x = 3;
-	for (int i = 0; i < 12; i++) {
-		x += (2 * x) ^ digit[i];
-	}
-	int lastDigit = x % 10;
-	if (lastDigit == digit[12]) {
-		printf("Key is correct. Enjoy your playing :)\n");
-        printf("Win the game to get the flag\n");
-	} else {
-		printf("Key is incorrect!\n");
-		exit(0);
-	}
+void check(int* digit, char* str) {
+    if (strlen(str) < 13) {
+        printf("Key is incorrect!\n");
+        exit(0);
+    }
+    for (int i = 0; i < 13; i++) {
+        digit[i] = str[i] - 48;
+    }
 }
 
 int main() {
 	printf("Welcome to the best game ever!\n");
 	srand(time(NULL));
-	trueNum = rand() % 100;
-	check();
+    printf("Please enter CD-key:\n");
+    int digit[13];
+    char str[255];
+    scanf("%s", str);
+    check(digit, str);
+    int x = 3;
+    for (int i = 0; i < 12; i++) {
+        x += (2 * x) ^ digit[i];
+    }
+    trueNum = rand() % 100;
+    int lastDigit = x % 10;
+    if (lastDigit == digit[12]) {
+        printf("Key is correct. Enjoy your playing :)\n");
+        printf("Win the game to get the flag\n");
+    } else {
+        printf("Key is incorrect!\n");
+        exit(0);
+    }
 	while (1) {
 		gamestep();
 	}
+    if (__size_of_stddump__[0] == 0) printFlag();
     return 0;
 }
