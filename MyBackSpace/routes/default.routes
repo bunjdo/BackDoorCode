@@ -1,0 +1,7 @@
+use com.bunjlabs.mybackspace
+
+GET  $/assets/(.*) asset(1)
+
+GET  $/([a-z0-9]{16})/?      MainController.index(1)
+GET  $/([a-z0-9]{16})/add    MainController.add(1)
+POST $/([a-z0-9]{16})/add    MainController.addProcess(1)

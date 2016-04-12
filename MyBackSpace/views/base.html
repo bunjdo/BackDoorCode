@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>MyBackSpace</title>
+    <link href="@{asset('css/bootstrap.min.css')}" rel="stylesheet">
+    <link href="@{asset('css/blog-home.css')}" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Навигация</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="@{that( ctx.get('key'), '')}">MyBackSpace</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Нерабочая ссылка</a>
+                    </li>
+                    <li>
+                        <a href="#">Еще одна</a>
+                    </li>
+                    <li>
+                        <a href="#">И еще одна</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-8">
+
+    <% block content %><% endblock %>
+        </div>
+
+            <div class="col-md-4">
+
+                <div class="well">
+                    <h4>Поиск по блогу</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="well">
+                    <h4>Варнинг!</h4>
+                    <p>Внимание! Этот сайт не копирует ни одну известную (или не очень) социальную сеть, как и ее давние уязвимости!</p>
+                </div>
+
+            </div>
+
+        </div>
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Копилефт &copy; MyBackSpace 2005</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="@{asset('js/jquery.js')}"></script>
+    <script src="@{asset('js/bootstrap.min.js')}"></script>
+    <script src="@{asset('js/common.js')}"></script>
+
+</body>
+
+</html>

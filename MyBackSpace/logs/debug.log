@@ -1,0 +1,434 @@
+2016-04-12 18:07:49,670 INFO FugaApp - Fuga Framework 0.3.4-SNAPSHOT
+2016-04-12 18:07:49,693 INFO Router - Routes loaded from: routes/default.routes
+2016-04-12 18:07:49,693 INFO Configuration - Configuration loaded from: configs/default.conf
+2016-04-12 18:07:50,043 INFO HttpServer - Starting up HTTP server at http://127.0.0.1:8080/
+2016-04-12 18:07:57,434 DEBUG HttpServerHandler - Access from /127.0.0.1:48859: localhost:8080/
+2016-04-12 18:07:57,723 DEBUG HttpServerHandler - Access from /127.0.0.1:48859: localhost:8080/favicon.ico
+2016-04-12 18:08:11,136 DEBUG HttpServerHandler - Access from /127.0.0.1:48859: localhost:8080/1234567891234567
+2016-04-12 18:08:11,937 DEBUG HttpServerHandler - Access from /127.0.0.1:48859: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:08:11,953 DEBUG HttpServerHandler - Access from /127.0.0.1:48859: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:08:11,961 DEBUG HttpServerHandler - Access from /127.0.0.1:48859: localhost:8080/assets/js/jquery.js
+2016-04-12 18:08:11,975 DEBUG HttpServerHandler - Access from /127.0.0.1:48859: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:08:12,007 DEBUG HttpServerHandler - Access from /127.0.0.1:48859: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:08:20,481 DEBUG HttpServerHandler - Access from /127.0.0.1:48859: localhost:8080/1234567891234567/add
+2016-04-12 18:08:20,659 DEBUG HttpServerHandler - Access from /127.0.0.1:48859: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:08:20,662 DEBUG HttpServerHandler - Access from /127.0.0.1:48866: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:08:20,663 DEBUG HttpServerHandler - Access from /127.0.0.1:48867: localhost:8080/assets/js/jquery.js
+2016-04-12 18:08:20,666 DEBUG HttpServerHandler - Access from /127.0.0.1:48868: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:08:20,741 DEBUG HttpServerHandler - Access from /127.0.0.1:48867: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:08:23,506 DEBUG HttpServerHandler - Access from /127.0.0.1:48867: localhost:8080/1234567891234567/add
+2016-04-12 18:08:23,517 DEBUG HttpServerHandler - Access from /127.0.0.1:48867: localhost:8080/1234567891234567//
+2016-04-12 18:08:42,447 INFO FugaApp - Fuga Framework 0.3.4-SNAPSHOT
+2016-04-12 18:08:42,471 INFO Router - Routes loaded from: routes/default.routes
+2016-04-12 18:08:42,472 INFO Configuration - Configuration loaded from: configs/default.conf
+2016-04-12 18:08:42,826 INFO HttpServer - Starting up HTTP server at http://127.0.0.1:8080/
+2016-04-12 18:08:45,845 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/1234567891234567/
+2016-04-12 18:08:46,536 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:08:46,536 DEBUG HttpServerHandler - Access from /127.0.0.1:48878: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:08:46,536 DEBUG HttpServerHandler - Access from /127.0.0.1:48879: localhost:8080/assets/js/jquery.js
+2016-04-12 18:08:46,550 DEBUG HttpServerHandler - Access from /127.0.0.1:48878: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:08:46,640 DEBUG HttpServerHandler - Access from /127.0.0.1:48878: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:08:49,029 DEBUG HttpServerHandler - Access from /127.0.0.1:48878: localhost:8080/1234567891234567/add
+2016-04-12 18:08:49,206 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:08:49,206 DEBUG HttpServerHandler - Access from /127.0.0.1:48878: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:08:49,213 DEBUG HttpServerHandler - Access from /127.0.0.1:48879: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:08:49,213 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/assets/js/jquery.js
+2016-04-12 18:08:49,277 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:08:50,427 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/1234567891234567/add
+2016-04-12 18:08:50,434 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/1234567891234567/
+2016-04-12 18:08:56,558 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/1234567891234567/
+2016-04-12 18:09:00,200 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/1234567891234567/add
+2016-04-12 18:09:04,307 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/1234567891234567/add
+2016-04-12 18:09:12,251 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/1234567891234567/add
+2016-04-12 18:09:12,258 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/1234567891234567/
+2016-04-12 18:09:25,497 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/1234567891234567
+2016-04-12 18:09:25,688 DEBUG HttpServerHandler - Access from /127.0.0.1:48879: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:09:25,688 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:09:25,692 DEBUG HttpServerHandler - Access from /127.0.0.1:48878: localhost:8080/assets/js/jquery.js
+2016-04-12 18:09:25,696 DEBUG HttpServerHandler - Access from /127.0.0.1:48906: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:09:25,811 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:09:28,076 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/1234567891234567/
+2016-04-12 18:09:28,197 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:09:28,206 DEBUG HttpServerHandler - Access from /127.0.0.1:48878: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:09:28,208 DEBUG HttpServerHandler - Access from /127.0.0.1:48906: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:09:28,209 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/assets/js/jquery.js
+2016-04-12 18:09:28,265 DEBUG HttpServerHandler - Access from /127.0.0.1:48877: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:09:56,593 INFO FugaApp - Fuga Framework 0.3.4-SNAPSHOT
+2016-04-12 18:09:56,611 INFO Router - Routes loaded from: routes/default.routes
+2016-04-12 18:09:56,612 INFO Configuration - Configuration loaded from: configs/default.conf
+2016-04-12 18:09:56,942 INFO HttpServer - Starting up HTTP server at http://127.0.0.1:8080/
+2016-04-12 18:10:00,143 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/1234567891234567/
+2016-04-12 18:10:00,939 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:00,947 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:00,951 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:00,954 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:01,018 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:10:02,048 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/1234567891234567/add
+2016-04-12 18:10:02,295 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:02,295 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:02,295 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:02,305 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:02,369 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:10:03,514 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/1234567891234567/add
+2016-04-12 18:10:03,522 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/1234567891234567/
+2016-04-12 18:10:03,666 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:03,676 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:03,676 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:03,676 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:03,729 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:10:17,115 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/1234567891234567/add
+2016-04-12 18:10:17,240 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:17,248 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:17,255 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:17,256 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:17,310 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:10:18,528 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/1234567891234567/add
+2016-04-12 18:10:18,539 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/1234567891234567/
+2016-04-12 18:10:18,667 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:18,670 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:18,677 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:18,680 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:18,741 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:10:19,635 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/1234567891234567/add
+2016-04-12 18:10:19,770 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:19,770 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:19,777 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:19,780 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:19,843 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:10:20,457 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/1234567891234567/add
+2016-04-12 18:10:20,463 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/1234567891234567/
+2016-04-12 18:10:20,598 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:20,598 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:20,598 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:20,599 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:20,715 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:10:21,306 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/1234567891234567/add
+2016-04-12 18:10:21,424 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:21,435 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:21,435 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:21,442 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:21,488 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:10:22,407 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/
+2016-04-12 18:10:23,947 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/1234567891234567/add
+2016-04-12 18:10:52,433 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/1234567891234567/add
+2016-04-12 18:10:52,644 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:52,649 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:52,655 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:52,657 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:52,717 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:10:54,193 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/1234567891234567/
+2016-04-12 18:10:54,328 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:54,329 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:54,333 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:54,334 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:54,394 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:10:55,346 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/1234567891234567/
+2016-04-12 18:10:55,467 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:55,477 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:55,477 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:55,484 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:55,527 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:10:58,448 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/1234567891234567/
+2016-04-12 18:10:58,568 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:58,568 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:58,573 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:58,577 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:58,633 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:10:59,406 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/1234567891234567/add
+2016-04-12 18:10:59,529 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:10:59,533 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:10:59,539 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/assets/js/jquery.js
+2016-04-12 18:10:59,543 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:10:59,595 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:11:02,305 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/1234567891234567/add
+2016-04-12 18:11:02,315 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/1234567891234567/
+2016-04-12 18:11:02,421 DEBUG HttpServerHandler - Access from /127.0.0.1:48914: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:11:02,428 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/js/jquery.js
+2016-04-12 18:11:02,428 DEBUG HttpServerHandler - Access from /127.0.0.1:48911: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:11:02,431 DEBUG HttpServerHandler - Access from /127.0.0.1:48912: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:11:02,492 DEBUG HttpServerHandler - Access from /127.0.0.1:48913: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:17:22,369 INFO FugaApp - Fuga Framework 0.3.4-SNAPSHOT
+2016-04-12 18:17:22,392 INFO Router - Routes loaded from: routes/default.routes
+2016-04-12 18:17:22,393 INFO Configuration - Configuration loaded from: configs/default.conf
+2016-04-12 18:17:22,752 INFO HttpServer - Starting up HTTP server at http://127.0.0.1:8080/
+2016-04-12 18:17:26,300 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/1234567891234567/
+2016-04-12 18:17:27,042 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:17:27,066 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/js/jquery.js
+2016-04-12 18:17:27,066 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/js/common.js
+2016-04-12 18:17:27,066 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:17:27,073 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:17:27,126 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:17:28,169 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/1234567891234567/add
+2016-04-12 18:17:28,378 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:17:28,379 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:17:28,384 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/js/jquery.js
+2016-04-12 18:17:28,391 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/js/common.js
+2016-04-12 18:17:28,391 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:17:28,454 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:17:30,831 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/1234567891234567/add
+2016-04-12 18:17:32,209 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/1234567891234567/
+2016-04-12 18:17:32,420 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:17:32,421 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/js/jquery.js
+2016-04-12 18:17:32,421 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:17:32,428 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:17:32,441 DEBUG HttpServerHandler - Access from /127.0.0.1:49138: localhost:8080/assets/js/common.js
+2016-04-12 18:17:32,506 DEBUG HttpServerHandler - Access from /127.0.0.1:49138: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:18:10,966 DEBUG HttpServerHandler - Access from /127.0.0.1:49138: localhost:8080/1234567891234567/add
+2016-04-12 18:18:11,177 DEBUG HttpServerHandler - Access from /127.0.0.1:49138: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:18:11,177 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:18:11,178 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/js/jquery.js
+2016-04-12 18:18:11,182 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/js/common.js
+2016-04-12 18:18:11,186 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:18:11,247 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:18:31,325 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/1234567891234567/add
+2016-04-12 18:18:32,757 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/1234567891234567/
+2016-04-12 18:18:32,954 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:18:32,961 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:18:32,965 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:18:32,965 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/js/jquery.js
+2016-04-12 18:18:32,969 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/js/common.js
+2016-04-12 18:18:33,024 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:18:51,088 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/1234567891234567/add
+2016-04-12 18:18:51,300 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/js/jquery.js
+2016-04-12 18:18:51,300 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:18:51,300 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:18:51,302 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:18:51,312 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/js/common.js
+2016-04-12 18:18:51,428 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:18:52,237 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/1234567891234567/add
+2016-04-12 18:18:53,363 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/1234567891234567/
+2016-04-12 18:18:53,531 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:18:53,537 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:18:53,541 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/js/jquery.js
+2016-04-12 18:18:53,542 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/js/common.js
+2016-04-12 18:18:53,545 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:18:53,603 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:19:00,329 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/1234567891234567/add
+2016-04-12 18:19:00,456 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:19:00,463 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:19:00,463 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/js/jquery.js
+2016-04-12 18:19:00,463 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:19:00,464 DEBUG HttpServerHandler - Access from /127.0.0.1:49138: localhost:8080/assets/js/common.js
+2016-04-12 18:19:00,539 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:19:01,493 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/1234567891234567/add
+2016-04-12 18:19:02,322 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/1234567891234567/
+2016-04-12 18:19:02,457 DEBUG HttpServerHandler - Access from /127.0.0.1:49130: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:19:02,464 DEBUG HttpServerHandler - Access from /127.0.0.1:49138: localhost:8080/assets/js/jquery.js
+2016-04-12 18:19:02,465 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:19:02,466 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/js/common.js
+2016-04-12 18:19:02,464 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:19:02,526 DEBUG HttpServerHandler - Access from /127.0.0.1:49138: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:19:02,719 DEBUG HttpServerHandler - Access from /127.0.0.1:49138: localhost:8080/1234567891234567/add
+2016-04-12 18:19:02,828 DEBUG HttpServerHandler - Access from /127.0.0.1:49138: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:19:02,838 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:19:02,838 DEBUG HttpServerHandler - Access from /127.0.0.1:49138: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:19:02,838 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/js/jquery.js
+2016-04-12 18:19:02,841 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/js/common.js
+2016-04-12 18:19:02,899 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:19:03,645 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/1234567891234567/add
+2016-04-12 18:19:04,196 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/1234567891234567/
+2016-04-12 18:19:04,356 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:19:04,358 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:19:04,361 DEBUG HttpServerHandler - Access from /127.0.0.1:49132: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:19:04,361 DEBUG HttpServerHandler - Access from /127.0.0.1:49131: localhost:8080/assets/js/jquery.js
+2016-04-12 18:19:04,370 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/js/common.js
+2016-04-12 18:19:04,396 DEBUG HttpServerHandler - Access from /127.0.0.1:49133: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:20:57,816 INFO FugaApp - Fuga Framework 0.3.4-SNAPSHOT
+2016-04-12 18:20:57,837 INFO Router - Routes loaded from: routes/default.routes
+2016-04-12 18:20:57,838 INFO Configuration - Configuration loaded from: configs/default.conf
+2016-04-12 18:20:58,167 INFO HttpServer - Starting up HTTP server at http://127.0.0.1:8080/
+2016-04-12 18:21:01,915 DEBUG HttpServerHandler - Access from /127.0.0.1:49170: localhost:8080/1234567891234567/add
+2016-04-12 18:21:02,619 DEBUG HttpServerHandler - Access from /127.0.0.1:49170: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:21:02,627 DEBUG HttpServerHandler - Access from /127.0.0.1:49171: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:21:02,631 DEBUG HttpServerHandler - Access from /127.0.0.1:49172: localhost:8080/assets/js/jquery.js
+2016-04-12 18:21:02,633 DEBUG HttpServerHandler - Access from /127.0.0.1:49171: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:21:02,642 DEBUG HttpServerHandler - Access from /127.0.0.1:49173: localhost:8080/assets/js/common.js
+2016-04-12 18:21:02,696 DEBUG HttpServerHandler - Access from /127.0.0.1:49172: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:21:22,032 DEBUG HttpServerHandler - Access from /127.0.0.1:49172: localhost:8080/1234567891234567/add
+2016-04-12 18:21:22,038 ERROR Router - catching
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_77]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_77]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_77]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_77]
+	at com.bunjlabs.fugaframework.router.Router.invoke(Router.java:146) ~[fuga-0.3.4-SNAPSHOT.jar:?]
+	at com.bunjlabs.fugaframework.router.Router.forward(Router.java:130) ~[fuga-0.3.4-SNAPSHOT.jar:?]
+	at com.bunjlabs.fugaframework.router.Router.forward(Router.java:86) [fuga-0.3.4-SNAPSHOT.jar:?]
+	at com.bunjlabs.fugaframework.network.HttpServerHandler.writeResponse(HttpServerHandler.java:209) [fuga-0.3.4-SNAPSHOT.jar:?]
+	at com.bunjlabs.fugaframework.network.HttpServerHandler.channelRead0(HttpServerHandler.java:169) [fuga-0.3.4-SNAPSHOT.jar:?]
+	at com.bunjlabs.fugaframework.network.HttpServerHandler.channelRead0(HttpServerHandler.java:63) [fuga-0.3.4-SNAPSHOT.jar:?]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:307) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:293) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:307) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:293) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:276) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:263) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:307) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:293) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:840) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137) [netty-all-4.0.34.Final.jar:4.0.34.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_77]
+Caused by: java.util.regex.PatternSyntaxException: Unexpected internal error near index 21
+\</?(.*)script(.*)/?\
+                     ^
+	at java.util.regex.Pattern.error(Pattern.java:1955) ~[?:1.8.0_77]
+	at java.util.regex.Pattern.compile(Pattern.java:1702) ~[?:1.8.0_77]
+	at java.util.regex.Pattern.<init>(Pattern.java:1351) ~[?:1.8.0_77]
+	at java.util.regex.Pattern.compile(Pattern.java:1028) ~[?:1.8.0_77]
+	at java.lang.String.replaceAll(String.java:2223) ~[?:1.8.0_77]
+	at com.bunjlabs.mybackspace.MainController.addProcess(MainController.java:42) ~[classes/:?]
+	... 29 more
+2016-04-12 18:21:43,457 INFO FugaApp - Fuga Framework 0.3.4-SNAPSHOT
+2016-04-12 18:21:43,479 INFO Router - Routes loaded from: routes/default.routes
+2016-04-12 18:21:43,480 INFO Configuration - Configuration loaded from: configs/default.conf
+2016-04-12 18:21:43,789 INFO HttpServer - Starting up HTTP server at http://127.0.0.1:8080/
+2016-04-12 18:21:49,107 DEBUG HttpServerHandler - Access from /127.0.0.1:49178: localhost:8080/1234567891234567/add
+2016-04-12 18:21:49,761 DEBUG HttpServerHandler - Access from /127.0.0.1:49178: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:21:49,773 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:21:49,777 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/js/jquery.js
+2016-04-12 18:21:49,782 DEBUG HttpServerHandler - Access from /127.0.0.1:49178: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:21:49,786 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/js/common.js
+2016-04-12 18:21:49,843 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:21:53,377 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/1234567891234567/add
+2016-04-12 18:21:54,607 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/1234567891234567/
+2016-04-12 18:21:54,957 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:21:54,966 DEBUG HttpServerHandler - Access from /127.0.0.1:49178: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:21:54,966 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/js/jquery.js
+2016-04-12 18:21:54,967 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:21:54,971 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/js/common.js
+2016-04-12 18:21:55,035 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:21:59,419 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/1234567891234567/
+2016-04-12 18:22:09,446 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/1234567891234567/add
+2016-04-12 18:22:09,637 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:22:09,648 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:22:09,649 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/js/jquery.js
+2016-04-12 18:22:09,654 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/js/common.js
+2016-04-12 18:22:09,654 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:22:09,716 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:22:36,526 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/1234567891234567/add
+2016-04-12 18:22:38,143 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/1234567891234567/
+2016-04-12 18:22:38,350 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:22:38,350 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:22:38,364 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/js/jquery.js
+2016-04-12 18:22:38,369 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:22:38,369 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/js/common.js
+2016-04-12 18:22:38,411 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:22:42,865 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/1234567891234567/
+2016-04-12 18:23:47,217 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/1234567891234567/add
+2016-04-12 18:23:47,428 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:23:47,436 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:23:47,439 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/js/jquery.js
+2016-04-12 18:23:47,440 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:23:47,441 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/js/common.js
+2016-04-12 18:23:47,493 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:24:52,847 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/1234567891234567/add
+2016-04-12 18:24:53,948 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/1234567891234567/
+2016-04-12 18:24:54,344 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:24:54,347 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:24:54,351 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/js/jquery.js
+2016-04-12 18:24:54,351 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/js/common.js
+2016-04-12 18:24:54,352 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:24:54,428 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:25:01,663 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/1234567891234567/
+2016-04-12 18:25:15,479 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/1234567891234567/add
+2016-04-12 18:25:15,684 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:25:15,684 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:25:15,684 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/js/jquery.js
+2016-04-12 18:25:15,689 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:25:15,690 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/js/common.js
+2016-04-12 18:25:15,752 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:25:50,283 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/1234567891234567/add
+2016-04-12 18:25:52,072 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/1234567891234567/
+2016-04-12 18:25:52,262 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:25:52,270 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:25:52,275 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:25:52,276 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/js/jquery.js
+2016-04-12 18:25:52,277 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/js/common.js
+2016-04-12 18:25:52,339 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:26:05,710 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/1234567891234567/
+2016-04-12 18:26:15,063 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/1234567891234567/add
+2016-04-12 18:26:15,245 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:26:15,250 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:26:15,251 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/js/jquery.js
+2016-04-12 18:26:15,255 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:26:15,255 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/js/common.js
+2016-04-12 18:26:15,316 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:26:21,472 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/1234567891234567/add
+2016-04-12 18:26:22,630 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/1234567891234567/
+2016-04-12 18:26:22,786 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:26:22,793 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:26:22,794 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/js/jquery.js
+2016-04-12 18:26:22,797 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/js/common.js
+2016-04-12 18:26:22,797 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:26:22,858 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:27:42,985 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/1234567891234567/add
+2016-04-12 18:27:43,178 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:27:43,180 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:27:43,188 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:27:43,188 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/js/jquery.js
+2016-04-12 18:27:43,189 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/js/common.js
+2016-04-12 18:27:43,249 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:27:45,315 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/1234567891234567/add
+2016-04-12 18:27:46,511 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/1234567891234567/
+2016-04-12 18:27:46,677 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:27:46,678 DEBUG HttpServerHandler - Access from /127.0.0.1:49179: localhost:8080/assets/js/jquery.js
+2016-04-12 18:27:46,678 DEBUG HttpServerHandler - Access from /127.0.0.1:49182: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:27:46,678 DEBUG HttpServerHandler - Access from /127.0.0.1:49181: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:27:46,684 DEBUG HttpServerHandler - Access from /127.0.0.1:49230: localhost:8080/assets/js/common.js
+2016-04-12 18:27:46,802 DEBUG HttpServerHandler - Access from /127.0.0.1:49180: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:28:21,844 INFO FugaApp - Fuga Framework 0.3.4-SNAPSHOT
+2016-04-12 18:28:21,872 INFO Router - Routes loaded from: routes/default.routes
+2016-04-12 18:28:21,872 INFO Configuration - Configuration loaded from: configs/default.conf
+2016-04-12 18:28:22,241 INFO HttpServer - Starting up HTTP server at http://127.0.0.1:8080/
+2016-04-12 18:28:23,870 DEBUG HttpServerHandler - Access from /127.0.0.1:49279: localhost:8080/1234567891234567/
+2016-04-12 18:28:24,646 DEBUG HttpServerHandler - Access from /127.0.0.1:49279: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:28:24,658 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/assets/js/jquery.js
+2016-04-12 18:28:24,658 DEBUG HttpServerHandler - Access from /127.0.0.1:49282: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:28:24,659 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:28:24,666 DEBUG HttpServerHandler - Access from /127.0.0.1:49283: localhost:8080/assets/js/common.js
+2016-04-12 18:28:24,716 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:28:26,019 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/1234567891234567/add
+2016-04-12 18:28:26,245 DEBUG HttpServerHandler - Access from /127.0.0.1:49282: localhost:8080/assets/js/jquery.js
+2016-04-12 18:28:26,246 DEBUG HttpServerHandler - Access from /127.0.0.1:49283: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:28:26,245 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:28:26,255 DEBUG HttpServerHandler - Access from /127.0.0.1:49282: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:28:26,260 DEBUG HttpServerHandler - Access from /127.0.0.1:49283: localhost:8080/assets/js/common.js
+2016-04-12 18:28:26,380 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:28:34,410 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/1234567891234567/add
+2016-04-12 18:28:35,752 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/1234567891234567/
+2016-04-12 18:28:35,954 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:28:35,954 DEBUG HttpServerHandler - Access from /127.0.0.1:49282: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:28:35,954 DEBUG HttpServerHandler - Access from /127.0.0.1:49283: localhost:8080/assets/js/jquery.js
+2016-04-12 18:28:35,955 DEBUG HttpServerHandler - Access from /127.0.0.1:49279: localhost:8080/assets/js/common.js
+2016-04-12 18:28:35,955 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:28:36,112 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:28:49,434 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/1234567891234467/
+2016-04-12 18:28:49,654 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/assets/js/jquery.js
+2016-04-12 18:28:49,654 DEBUG HttpServerHandler - Access from /127.0.0.1:49283: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:28:49,654 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:28:49,679 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:28:49,679 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/assets/js/common.js
+2016-04-12 18:28:49,784 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:28:51,346 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/1234567891234467/add
+2016-04-12 18:28:51,506 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:28:51,510 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:28:51,520 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/assets/js/jquery.js
+2016-04-12 18:28:51,520 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:28:51,524 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/assets/js/common.js
+2016-04-12 18:28:51,575 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2
+2016-04-12 18:29:40,434 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/1234567891234467/add
+2016-04-12 18:29:41,391 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/1234567891234467/
+2016-04-12 18:29:41,510 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/assets/css/bootstrap.min.css
+2016-04-12 18:29:41,511 DEBUG HttpServerHandler - Access from /127.0.0.1:49281: localhost:8080/assets/css/blog-home.css
+2016-04-12 18:29:41,514 DEBUG HttpServerHandler - Access from /127.0.0.1:49279: localhost:8080/assets/js/bootstrap.min.js
+2016-04-12 18:29:41,514 DEBUG HttpServerHandler - Access from /127.0.0.1:49283: localhost:8080/assets/js/jquery.js
+2016-04-12 18:29:41,523 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/assets/js/common.js
+2016-04-12 18:29:41,626 DEBUG HttpServerHandler - Access from /127.0.0.1:49280: localhost:8080/assets/fonts/glyphicons-halflings-regular.woff2

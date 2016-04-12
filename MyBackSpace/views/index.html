@@ -1,0 +1,20 @@
+@extends base.html
+<% block content %>
+
+
+<h1 class="page-header">
+    <small>Записи</small><a href="@{that(ctx.get('key'), 'add')}" class="btn btn-primary pull-right">Добавить</a>
+</h1>
+
+<% var posts = ctx.get("posts"); %>
+<% for (var i = 0; i < posts.size(); i++) { %>
+<% var item = posts.get(i); %>
+<h2><# item.getTitle() #></h2>
+<p><span class="glyphicon glyphicon-time"></span> Опубликовано в день какой неведомо, в никаком году.</p>
+<hr>
+<# item.getContent() #><br><br><br>
+<a class="btn btn-primary" href="#">Рид лесс<span class="glyphicon glyphicon-chevron-right"></span></a>
+
+<hr>
+<% } %>
+<% endblock %>
