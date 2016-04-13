@@ -72,7 +72,7 @@
     -->
     
      <target name="-post-jar">
-        <property name="proguard.jar.path" value="/home/user/downloads/proguard5.2.1/lib/proguard.jar" />
+        <property name="proguard.jar.path" value="/home/user/workspace/proguard.jar" />
         <property name="java.home.path" value="/usr/lib/jvm/java-8-oracle/" />
         
         <taskdef resource="proguard/ant/task.properties"
