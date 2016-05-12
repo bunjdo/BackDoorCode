@@ -10,7 +10,7 @@ $pass = $_POST['pass'];
 
 if ($login == "admin" && $pass == "megapasssword") {
 	echo '<br>Hello, ' . $login . '<br><br>';
-	echo 'Your key is: "ThisIsKeyForLoginTask0284<br>';
+	echo 'Your key is: "DvCTF{ThisIsKeyForLoginTask0284}<br>';
 } else {
 	echo 'Wrong login or password';
 }
