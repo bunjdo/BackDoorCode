@@ -1,0 +1,2 @@
+Yong programmer Vasya developed his own archivator and archived a small text file with it. To his great disapointmet the size of archived file become 3000 (!) times bigger than original. So, Vasya desided to store his files as is. But to his great disapointment he forgot to develop dearchivator. Please help Vasya to unpack his file. There are very interesting information for you in it.
+As GNU developer, Vasya provides you with source code and archived file. He needs your help.
