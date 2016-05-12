@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mac hacking</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="signin.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <form action="process.php" method="get">
+        <h2 class="form-signin-heading">Sign</h2>
+        <br><p>Action</p>
+        <select class="form-control" name="a">
+            <option selected value="sign">sign</option>
+            <option value="verify">verify</option>
+        </select>
+        <br><p>Method</p>
+        <select class="form-control" name="m">
+            <option selected value="new">hash_hmac( md5, data, secret) )</option>
+            <option value="old">md5( xor(data, secret) )</option>
+        </select>
+        <br><p>Data</p>
+        <input type="text" class="form-control" name="d" placeholder="data">
+        <br><p>Signature</p>
+        <input type="text" class="form-control" name="s" placeholder="signature">
+        <br>
+        <input type="submit" name="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
