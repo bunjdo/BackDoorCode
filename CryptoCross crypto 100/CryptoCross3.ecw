@@ -1,0 +1,35 @@
+; EclipseCrossword (1.2.61) crossword puzzle
+; Get EclipseCrossword free at:
+; http://www.eclipsecrossword.com
+
+Title:  CryptoCross
+Width:  14
+Height:  15
+CodePage:  204
+Copyright:  © 2016
+
+; ------------------------------------------------------------
+* Across words
+; ------------------------------------------------------------
+
+SCHILLING:  3, 5:  This cipher uses encryption sets of two letters, and its inventor is a close friend of Pushkin. He also used this cipher in his Telegraph. Write the last name of author of this cypher.
+CARDANO:  2, 1:  The text encrypted in such a way, it is practically impossible to recover without the use of a special rectangular device, which is, in fact, the key encryption. This device, as well as one of the parts of the car, is named in his honor.
+KRYPTOS:  5, 3:  Agents and cryptanalysts of intelligence service still were not able to decipher the last part of the quartet of this massive stone ciphers.
+BACON:  1, 11:  AAABA ABBBA AAABB AABAA
+SCYTALE:  8, 10:  In ancient Sparta used a device for encrypting messages. Despite the primitive, for a long time allowed to maintain the secrecy of correspondence, while Aristotle "hacked" it.
+ROT:  1, 6:  Alphabetical shift, the general case of the Caesar cipher.
+ATBASH:  1, 13:  It just reverses your knowledge of the alphabet.
+MORSE:  8, 14:  -- --- *-* *** *
+
+; ------------------------------------------------------------
+* Down words
+; ------------------------------------------------------------
+
+HAGELIN:  5, 5:  Soviet cipher machine, analogue of "Enigma". Was used in the Second World War.
+ACROSTIC:  3, 1:  Text of this message usually contains a rhyme and it is an artwork. Not immediately possible to notice that there is really something hidden.
+POLYBIUS:  8, 3:  Easy replacement, and the idea is very simple, but without the knowledge of the size of the table to decipher problematic.
+VOYNICH:  10, 2:  Although this book was written in the 15th century. Its text has never been deciphered. It was named in honor of the Polish antiquarian.
+BEALE:  1, 11:  It is assumed that cipher's history could be the basis for the plot of the new film about Indiana Jones, but unfortunately, nobody till now has failed to find out, as described in his messages. The value of information of these encrypted messages is estimated at millions dollars. Any case, this is a very interesting legend.
+VIGENERE:  14, 3:  Without knowing the keyword length, this cipher is difficult to decipher. After all, this keyword is repeated cyclically.
+BRAILLE:  12, 8:  It is not a cipher, but also contains its own alphabet and helps people has lost the opportunity read, learn to do it again.
+
