@@ -1,8 +1,20 @@
 # BackDoorCode
 
-Very stupid code only for data protection practice
+Current situation:
 
-This is repository for developers only, if you are interested in clear competition please don't read docs and sources
+---Android---
+AndroidDecompileSimple 100
+AndroidDecompileNormal 200
+QRCodeReader 200
+writeily-pro-2.0 300-400
 
-Please be welcome to contribute
+---Reverse---
+LetsObfuscate 100
+superGame 250
 
+---Web---
+loginPage 100
+MyBackSpace 200
+
+---Coding---
+Rasduvator 300

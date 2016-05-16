@@ -1,8 +1,0 @@
-Goal - to get the flag from web app (index.html and process.php files)
-
-Way to solwe:
-You are provided with db.sqlite file, that is contains login and md5 encrypted password.
-You just need to decrypt this md5 hash using any online decryptor and login into web app, where you can fint your flag.
-
-
-admin : ee1650ceb907fe3085d182e3123d6082 (megapasssword)

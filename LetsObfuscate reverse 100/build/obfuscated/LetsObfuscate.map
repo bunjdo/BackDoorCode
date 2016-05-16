@@ -1,0 +1,4 @@
+com.bunjlabs.LetsObfuscate -> com.bunjlabs.LetsObfuscate:
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> main
+    java.lang.String ok(java.lang.String) -> a
